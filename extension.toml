@@ -1,0 +1,11 @@
+id = "bibtex"
+name = "BibTeX"
+version = "0.0.1"
+schema_version = 1
+authors = ["Fernando Muro <fmuro@us.es>"]
+description = "BibTeX syntax highlighting for Zed"
+# repository = "https://github.com/your-name/my-zed-extension"
+
+[grammars.bibtex]
+repository = "https://github.com/latex-lsp/tree-sitter-bibtex"
+commit = "ccfd77db0ed799b6c22c214fe9d2937f47bc8b34"
